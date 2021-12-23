@@ -13,5 +13,5 @@ export const GlobalStyles = createGlobalStyle`
         font-family: Inter;
         overflow-y: scroll;
         font-family: 'Inter', sans-serif;
-    }
+    };
 `;
