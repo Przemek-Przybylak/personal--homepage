@@ -4,10 +4,11 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./GlobalStyles";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { theme } from "./theme";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <GlobalStyles />
       <App />
     </ThemeProvider>
