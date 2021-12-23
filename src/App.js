@@ -1,9 +1,12 @@
+import { Container } from "./common/Container";
 import { Header } from "./common/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Container>
+        <Header />
+      </Container>
     </div>
   );
 }
