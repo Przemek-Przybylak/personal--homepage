@@ -12,5 +12,6 @@ export const GlobalStyles = createGlobalStyle`
         background-color: #E5E5E5;
         font-family: Inter;
         overflow-y: scroll;
+        font-family: 'Inter', sans-serif;
     }
 `;
