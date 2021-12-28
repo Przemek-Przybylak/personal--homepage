@@ -1,12 +1,37 @@
-export const theme = {
-  color: {
-    mercury: "#E5E5E5",
-    mineShaft: "#252525",
-    slateGray: "#6E7E91",
-    scienceBlue: "#0366D6",
+export const lightTheme = {
+  colors: {
+    background: "#FFFFFF",
+    mainFont: "#6E7E91",
+    secondFont: "#252525",
+    mainBlue: "#0366D6",
+    tileHeader: "#0366D6",
+    tileBackground: "#FFFFFF",
+    tileBorder: "rgba(209, 213, 218, 0.3)",
+    tileBorderOnHover: "rgba(3, 102, 214, 0.2)",
     white: "#FFFFFF",
+    codeBackground: "#aaaaaa",
   },
-  breakpoint: {
-    mobileMax: "767px",
+
+  breakPoints: {
+    mobileMax: "767",
+  },
+};
+
+export const darkTheme = {
+  colors: {
+    background: "#252525",
+    mainFont: "#FFFFFF",
+    secondFont: "#FFFFFF",
+    mainBlue: "#2188FF",
+    tileHeader: "#FFFFFF",
+    tileBackground: "#363636",
+    tileBorder: "rgba(209, 213, 218, 0.1)",
+    tileBorderOnHover: "rgba(3, 102, 214, 0.5)",
+    white: "#FFFFFF",
+    codeBackground: "#363636",
+  },
+
+  breakPoints: {
+    mobileMax: "767",
   },
 };
