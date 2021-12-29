@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.header`
   margin-top: 119px;
@@ -6,6 +6,12 @@ export const Wrapper = styled.header`
   gap: 66px;
   grid-template-rows: 32px 1fr;
   grid-template-areas: "photo themeToggler" "photo personalInfo";
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    gap: 12px;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: "photo themeToggler" "personalInfo personalInfo";
+  }
 `;
 
 export const Picture = styled.img`
@@ -13,6 +19,11 @@ export const Picture = styled.img`
   width: 384px;
   height: 384px;
   background-color: black;
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    height: 132px;
+    width: 132px;
+  }
 `;
 
 export const AboutMe = styled.article`
@@ -32,6 +43,11 @@ export const Span = styled.span`
   text-transform: uppercase;
   align-items: center;
   color: ${({ theme }) => theme.colors.mainFont};
+
+  ${({ toggler }) => toggler && css``}
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    display: none;
+  }
 `;
 
 export const Name = styled.h1`
@@ -43,6 +59,10 @@ export const Name = styled.h1`
   text-transform: capitalize;
   font-style: normal;
   color: ${({ theme }) => theme.colors.secondFont};
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    font-size: 22px;
+  }
 `;
 
 export const Content = styled.article`
@@ -52,6 +72,11 @@ export const Content = styled.article`
   line-height: 28px;
   letter-spacing: 5%;
   color: ${({ theme }) => theme.colors.mainFont};
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    font-size: 17px;
+    margin: 16px 0px;
+  }
 `;
 
 export const Contact = styled.button`
@@ -65,6 +90,12 @@ export const Contact = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    max-width: 138px;
+    max-height: 46px;
+    margin-top: 8px;
+  }
 `;
 
 export const Mail = styled.img``;

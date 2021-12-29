@@ -11,7 +11,7 @@ export const ThemeToggle = () => {
 
   return (
     <Wrapper>
-      <Span>{darkTheme ? "dark mode on" : "dark mode off"}</Span>
+      <Span toggler>{darkTheme ? "dark mode on" : "dark mode off"}</Span>
       <Toggler onClick={() => dispatch(toggleDarkTheme())}>
         {darkTheme ? <DarkModeOn /> : <DarkModeOff />}
       </Toggler>
