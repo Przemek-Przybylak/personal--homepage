@@ -1,5 +1,20 @@
-import { Wrapper } from "./styled";
+import { useDispatch, useSelector } from "react-redux";
+import { Toggler, Wrapper } from "./styled";
+import { ReactComponent as DarkModeOn } from "../../../svg/DarkModeOn.svg";
+import { ReactComponent as DarkModeOff } from "../../../svg/DarkModeOff.svg";
+import { selectDarkTheme, toggleDarkTheme } from "./ThemeSlice";
+import { Span } from "../styled";
 
 export const ThemeToggle = () => {
-  return <Wrapper>dark mode off</Wrapper>;
+  const dispatch = useDispatch();
+  const darkTheme = useSelector(selectDarkTheme);
+
+  return (
+    <Wrapper>
+      <Span>{darkTheme ? "dark mode on" : "dark mode off"}</Span>
+      <Toggler onClick={() => dispatch(toggleDarkTheme())}>
+        {darkTheme ? <DarkModeOn /> : <DarkModeOff />}
+      </Toggler>
+    </Wrapper>
+  );
 };
