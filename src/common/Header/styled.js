@@ -33,6 +33,10 @@ export const AboutMe = styled.article`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    align-items: stretch;
+  }
 `;
 
 export const Span = styled.span`
@@ -76,6 +80,7 @@ export const Content = styled.article`
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     font-size: 17px;
     margin: 16px 0px;
+    width: 100%;
   }
 `;
 
