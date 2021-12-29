@@ -9,9 +9,10 @@ export const GlobalStyles = createGlobalStyle`
     };
 
     body {
-        background-color: #E5E5E5;
+        background-color: ${({ theme }) => theme.colors.background};
         font-family: Inter;
         overflow-y: scroll;
         font-family: 'Inter', sans-serif;
+        transition: 300ms;
     };
 `;
