@@ -1,4 +1,14 @@
-import { AboutMe, Picture, Wrapper } from "./styled";
+import {
+  AboutMe,
+  Contact,
+  Content,
+  Name,
+  Picture,
+  Span,
+  Wrapper,
+  Mail,
+} from "./styled";
+import mail from "../../svg/mail.svg";
 import { ThemeToggle } from "./ThemeToggle";
 
 export const Header = () => {
@@ -7,10 +17,16 @@ export const Header = () => {
       <Picture />
       <ThemeToggle />
       <AboutMe>
-        lorem ipsum`
-        lalalalalalalalalalalalalalalallalalalalalalalalalalalalalal
-        lalalalalallalala lalalalalallala allalalalallala lalallalalalalal
-        lalalalal alalalla aallalaa a aja ja ja ja ja jaj aj ja ja ja ja ja j a
+        <Span>this is</Span>
+        <Name>przemek przybylak</Name>
+        <Content>
+          🚨 Are you looking for a future React Master? 👨🏻‍💻 <br />
+          Great😉 See what I have prepared for you!
+        </Content>
+        <Contact>
+          <Mail src={mail} />
+          Hire Me
+        </Contact>
       </AboutMe>
     </Wrapper>
   );
