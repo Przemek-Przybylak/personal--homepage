@@ -5,9 +5,13 @@ export const Wrapper = styled.header`
   display: grid;
   gap: 66px;
   grid-template-rows: 32px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-areas: "photo themeToggler" "photo personalInfo";
+  margin-bottom: 73px;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    margin-bottom: 48px;
+    margin-top: 21px;
     gap: 12px;
     grid-template-rows: auto auto 1fr;
     grid-template-areas: "photo themeToggler" "personalInfo personalInfo";
