@@ -88,7 +88,7 @@ export const Content = styled.article`
   }
 `;
 
-export const Contact = styled.button`
+export const Contact = styled.a`
   max-width: 154px;
   max-height: 49px;
   border-radius: 4px;
@@ -99,6 +99,7 @@ export const Contact = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  text-decoration: none;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     max-width: 138px;
