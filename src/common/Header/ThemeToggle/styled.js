@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  max-width: 500px;
   grid-area: themeToggler / themeToggler / themeToggler / personalInfo;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
