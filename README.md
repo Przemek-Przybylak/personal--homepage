@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ##DEMO: 
-(https://przemek-przybylak.github.io/personal--homepage/)
+https://przemek-przybylak.github.io/personal--homepage/
 
 ## Available Scripts
 
