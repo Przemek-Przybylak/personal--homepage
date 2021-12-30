@@ -23,7 +23,7 @@ export const Header = () => {
           🚨 Are you looking for a future React Master? 👨🏻‍💻 <br />
           Great😉 See what I have prepared for you!
         </Content>
-        <Contact>
+        <Contact href="mailto:przemyslaw.przybylak2@gmail.com">
           <Mail src={mail} />
           Hire Me
         </Contact>
