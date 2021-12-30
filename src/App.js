@@ -5,6 +5,7 @@ import { Header } from "./common/Header";
 import { selectDarkTheme } from "./common/Header/ThemeToggle/ThemeSlice";
 import { ListTile } from "./common/ListTile";
 import { GlobalStyles } from "./GlobalStyles";
+import { Projects } from "./Projects";
 import { skills, title } from "./skillsTables/currentSkills";
 import { futureSkills, futureSkillsTitle } from "./skillsTables/futureSkills";
 import { darkTheme, lightTheme } from "./theme";
@@ -20,6 +21,7 @@ function App() {
           <Header />
           <ListTile skills={skills} title={title} />
           <ListTile skills={futureSkills} title={futureSkillsTitle} />
+          <Projects />
         </Container>
       </ThemeProvider>
     </div>
