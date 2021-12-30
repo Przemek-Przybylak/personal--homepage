@@ -3,7 +3,10 @@ import { ThemeProvider } from "styled-components";
 import { Container } from "./common/Container";
 import { Header } from "./common/Header";
 import { selectDarkTheme } from "./common/Header/ThemeToggle/ThemeSlice";
+import { ListTile } from "./common/ListTile";
 import { GlobalStyles } from "./GlobalStyles";
+import { skills, title } from "./skillsTables/currentSkills";
+import { futureSkills, futureSkillsTitle } from "./skillsTables/futureSkills";
 import { darkTheme, lightTheme } from "./theme";
 
 function App() {
@@ -15,6 +18,8 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header />
+          <ListTile skills={skills} title={title} />
+          <ListTile skills={futureSkills} title={futureSkillsTitle} />
         </Container>
       </ThemeProvider>
     </div>
