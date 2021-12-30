@@ -16,8 +16,8 @@ export const Wrapper = styled.header`
 
 export const Picture = styled.img`
   grid-area: photo / photo / photo / photo;
-  width: 384px;
-  height: 384px;
+  width: 398px;
+  height: 398px;
   background-color: black;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
