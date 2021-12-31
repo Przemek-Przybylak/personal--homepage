@@ -17,7 +17,6 @@ import {
 
 export const RepoTiles = () => {
   const dispatch = useDispatch();
-
   const repositories = useSelector(selectRepositories);
 
   useEffect(() => {
@@ -25,18 +24,28 @@ export const RepoTiles = () => {
   }, []);
   return (
     <Wrapper>
-      <ProjectTile>
-        <Header />
-        <Description />
-        <LinksWrapper>
-          <LinkWrapper>
-            DEMO:<Link></Link>
-          </LinkWrapper>
-          <LinkWrapper>
-            Code:<Link></Link>
-          </LinkWrapper>
-        </LinksWrapper>
-      </ProjectTile>
+      {repositories.map(
+        ({ id, name, description, deployments_url, html_url }) => (
+          <ProjectTile key={id}>
+            <Header>{name}</Header>
+            <Description>{description}</Description>
+            <LinksWrapper>
+              <LinkWrapper>
+                DEMO:
+                <Link target="_blank" rel="noreferrer" href={deployments_url}>
+                  {deployments_url}
+                </Link>
+              </LinkWrapper>
+              <LinkWrapper>
+                Code:
+                <Link target="_blank" rel="noreferrer" href={html_url}>
+                  {html_url}
+                </Link>
+              </LinkWrapper>
+            </LinksWrapper>
+          </ProjectTile>
+        )
+      )}
     </Wrapper>
   );
 };
