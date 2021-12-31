@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  margin-top: 24px;
   margin-bottom: 120px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,14 +19,15 @@ export const Wrapper = styled.div`
 
 export const ProjectTile = styled.article`
   padding: 56px;
-  background-color: ${({ theme }) => theme.colors.tittleBackground};
+  background-color: ${({ theme }) => theme.colors.tileBackground};
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 `;
 
 export const Header = styled.h3`
+  margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -52,7 +54,7 @@ export const Description = styled.p`
 
 export const LinksWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 `;
 
