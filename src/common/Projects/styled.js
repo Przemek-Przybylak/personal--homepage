@@ -2,14 +2,14 @@ import styled from "styled-components";
 import { ReactComponent as GitHub } from "../../svg/github.svg";
 
 export const Wrapper = styled.div`
-  margin: 72px auto -8px;
+  margin: 72px auto 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   color: ${({ theme }) => theme.colors.mainFont};
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
-    margin-top: -2px;
+    margin-top: 0;
   }
 `;
 
