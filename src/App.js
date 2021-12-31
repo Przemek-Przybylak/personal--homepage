@@ -9,6 +9,7 @@ import { Projects } from "./common/Projects";
 import { skills, title } from "./skillsTables/currentSkills";
 import { futureSkills, futureSkillsTitle } from "./skillsTables/futureSkills";
 import { darkTheme, lightTheme } from "./theme";
+import { RepoTiles } from "./features/RepoTiles";
 
 function App() {
   const darkThemeOn = useSelector(selectDarkTheme);
@@ -22,6 +23,7 @@ function App() {
           <ListTiles skills={skills} title={title} />
           <ListTiles skills={futureSkills} title={futureSkillsTitle} />
           <Projects />
+          <RepoTiles />
         </Container>
       </ThemeProvider>
     </div>
