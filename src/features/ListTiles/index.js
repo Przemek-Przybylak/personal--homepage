@@ -1,14 +1,13 @@
 import {
   Caption,
   Element,
-  SkillsList,
   Wrapper,
   List,
   Bullet,
   ListItemText,
 } from "./styled";
 
-export const ListTile = ({ skills, title }) => {
+export const ListTiles = ({ skills, title }) => {
   console.log(skills);
   return (
     <Wrapper>

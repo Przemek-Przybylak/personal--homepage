@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Wrapper = styled.section`
   margin: 0px auto 72px;
@@ -20,9 +20,6 @@ export const Caption = styled.h2`
   padding-bottom: 15px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.tileBorder};
   color: ${({ theme }) => theme.colors.secondFont};
-
-  ${({ future }) => future && css``}
-  border-bottom: 1px solid ${({ theme }) => theme.colors.lightGrey};
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     margin: 0;
