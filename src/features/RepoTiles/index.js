@@ -5,6 +5,15 @@ import {
   fetchRepositories,
   selectRepositories,
 } from "./state/RepositoriesSlice";
+import {
+  Description,
+  Header,
+  Link,
+  LinksWrapper,
+  LinkWrapper,
+  ProjectTile,
+  Wrapper,
+} from "./styled";
 
 export const RepoTiles = () => {
   const dispatch = useDispatch();
@@ -14,5 +23,20 @@ export const RepoTiles = () => {
   useEffect(() => {
     dispatch(fetchRepositories());
   }, []);
-  return <>nanan</>;
+  return (
+    <Wrapper>
+      <ProjectTile>
+        <Header />
+        <Description />
+        <LinksWrapper>
+          <LinkWrapper>
+            DEMO:<Link></Link>
+          </LinkWrapper>
+          <LinkWrapper>
+            Code:<Link></Link>
+          </LinkWrapper>
+        </LinksWrapper>
+      </ProjectTile>
+    </Wrapper>
+  );
 };
