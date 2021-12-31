@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const repositoriesSlice = createSlice({
   name: "repositories",
   initialState: {
-    repositories: {},
+    repositories: [],
     loading: true,
     error: false,
   },
@@ -14,6 +14,9 @@ const repositoriesSlice = createSlice({
     },
     fetchRepositoriesSuccess: (state, { payload: repositories }) => {
       state.repositories = repositories;
+      state.repositories.sort(
+        (a, b) => new Date(b.created_at) - new Date(a.created_at)
+      );
       state.loading = false;
       state.error = false;
     },
