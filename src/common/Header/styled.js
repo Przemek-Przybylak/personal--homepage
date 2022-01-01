@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Wrapper = styled.header`
   margin-top: 119px;
@@ -40,21 +40,6 @@ export const AboutMe = styled.article`
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     align-items: stretch;
-  }
-`;
-
-export const Span = styled.span`
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15.6px;
-  text-transform: uppercase;
-  align-items: center;
-  color: ${({ theme }) => theme.colors.mainFont};
-
-  ${({ toggler }) => toggler && css``}
-  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
-    display: none;
   }
 `;
 

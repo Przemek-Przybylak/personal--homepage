@@ -4,12 +4,12 @@ import {
   Content,
   Name,
   Picture,
-  Span,
   Wrapper,
   Mail,
 } from "./styled";
 import mail from "../../svg/mail.svg";
 import { ThemeToggle } from "./ThemeToggle";
+import { Span } from "../Span";
 
 export const Header = () => {
   return (

@@ -3,7 +3,7 @@ import { Toggler, Wrapper } from "./styled";
 import { ReactComponent as DarkModeOn } from "../../../svg/DarkModeOn.svg";
 import { ReactComponent as DarkModeOff } from "../../../svg/DarkModeOff.svg";
 import { selectDarkTheme, toggleDarkTheme } from "./state/ThemeSlice";
-import { Span } from "../styled";
+import { Span } from "../../Span";
 
 export const ThemeToggle = () => {
   const dispatch = useDispatch();
