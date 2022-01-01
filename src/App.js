@@ -10,6 +10,7 @@ import { skills, title } from "./skillsTables/currentSkills";
 import { futureSkills, futureSkillsTitle } from "./skillsTables/futureSkills";
 import { darkTheme, lightTheme } from "./theme";
 import { RepoTiles } from "./features/RepoTiles";
+import { Footer } from "./common/Footer";
 
 function App() {
   const darkThemeOn = useSelector(selectDarkTheme);
@@ -24,6 +25,7 @@ function App() {
           <ListTiles skills={futureSkills} title={futureSkillsTitle} />
           <Projects />
           <RepoTiles />
+          <Footer />
         </Container>
       </ThemeProvider>
     </div>
