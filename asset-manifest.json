@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.js": "/personal--homepage/static/js/main.5558982f.chunk.js",
-    "main.js.map": "/personal--homepage/static/js/main.5558982f.chunk.js.map",
-    "runtime-main.js": "/personal--homepage/static/js/runtime-main.6bcffc9b.js",
-    "runtime-main.js.map": "/personal--homepage/static/js/runtime-main.6bcffc9b.js.map",
-    "static/js/2.67caa35d.chunk.js": "/personal--homepage/static/js/2.67caa35d.chunk.js",
-    "static/js/2.67caa35d.chunk.js.map": "/personal--homepage/static/js/2.67caa35d.chunk.js.map",
-    "static/js/3.24781e1d.chunk.js": "/personal--homepage/static/js/3.24781e1d.chunk.js",
-    "static/js/3.24781e1d.chunk.js.map": "/personal--homepage/static/js/3.24781e1d.chunk.js.map",
+    "main.js": "/personal--homepage/static/js/main.1ced36c5.chunk.js",
+    "main.js.map": "/personal--homepage/static/js/main.1ced36c5.chunk.js.map",
+    "runtime-main.js": "/personal--homepage/static/js/runtime-main.f9ad778b.js",
+    "runtime-main.js.map": "/personal--homepage/static/js/runtime-main.f9ad778b.js.map",
+    "static/js/2.5a2b4061.chunk.js": "/personal--homepage/static/js/2.5a2b4061.chunk.js",
+    "static/js/2.5a2b4061.chunk.js.map": "/personal--homepage/static/js/2.5a2b4061.chunk.js.map",
+    "static/js/3.77501594.chunk.js": "/personal--homepage/static/js/3.77501594.chunk.js",
+    "static/js/3.77501594.chunk.js.map": "/personal--homepage/static/js/3.77501594.chunk.js.map",
     "index.html": "/personal--homepage/index.html",
-    "static/js/2.67caa35d.chunk.js.LICENSE.txt": "/personal--homepage/static/js/2.67caa35d.chunk.js.LICENSE.txt",
+    "static/js/2.5a2b4061.chunk.js.LICENSE.txt": "/personal--homepage/static/js/2.5a2b4061.chunk.js.LICENSE.txt",
     "static/media/DarkModeOff.29aec393.svg": "/personal--homepage/static/media/DarkModeOff.29aec393.svg",
     "static/media/DarkModeOn.75c7fdb1.svg": "/personal--homepage/static/media/DarkModeOn.75c7fdb1.svg",
+    "static/media/Facebook.c0d94c28.svg": "/personal--homepage/static/media/Facebook.c0d94c28.svg",
+    "static/media/LinkedIN.364f02bf.svg": "/personal--homepage/static/media/LinkedIN.364f02bf.svg",
     "static/media/github.bab7677d.svg": "/personal--homepage/static/media/github.bab7677d.svg",
     "static/media/mail.4bb44ead.svg": "/personal--homepage/static/media/mail.4bb44ead.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bcffc9b.js",
-    "static/js/2.67caa35d.chunk.js",
-    "static/js/main.5558982f.chunk.js"
+    "static/js/runtime-main.f9ad778b.js",
+    "static/js/2.5a2b4061.chunk.js",
+    "static/js/main.1ced36c5.chunk.js"
   ]
 }
