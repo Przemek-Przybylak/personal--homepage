@@ -24,28 +24,30 @@ export const RepoTiles = () => {
   }, []);
   return (
     <Wrapper>
-      {repositories.map(
-        ({ id, name, description, deployments_url, html_url }) => (
-          <ProjectTile key={id}>
-            <Header>{name}</Header>
-            <Description>{description}</Description>
-            <LinksWrapper>
-              <LinkWrapper>
-                DEMO:
-                <Link target="_blank" rel="noreferrer" href={deployments_url}>
-                  {deployments_url}
-                </Link>
-              </LinkWrapper>
-              <LinkWrapper>
-                Code:
-                <Link target="_blank" rel="noreferrer" href={html_url}>
-                  {html_url}
-                </Link>
-              </LinkWrapper>
-            </LinksWrapper>
-          </ProjectTile>
-        )
-      )}
+      {repositories.map(({ id, name, description, html_url }) => (
+        <ProjectTile key={id}>
+          <Header>{name}</Header>
+          <Description>{description}</Description>
+          <LinksWrapper>
+            <LinkWrapper>
+              DEMO:
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href={`https://przemek-przybylak.github.io/${name}/`}
+              >
+                {`https://przemek-przybylak.github.io/${name}/`}
+              </Link>
+            </LinkWrapper>
+            <LinkWrapper>
+              Code:
+              <Link target="_blank" rel="noreferrer" href={html_url}>
+                {html_url}
+              </Link>
+            </LinkWrapper>
+          </LinksWrapper>
+        </ProjectTile>
+      ))}
     </Wrapper>
   );
 };
