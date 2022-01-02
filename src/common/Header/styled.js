@@ -76,36 +76,3 @@ export const Content = styled.article`
     width: 100%;
   }
 `;
-
-export const Contact = styled.a`
-  max-width: 154px;
-  max-height: 49px;
-  border-radius: 4px;
-  padding: 12px 16px;
-  border: 1px solid ${({ theme }) => theme.colors.mainBlue};
-  background-color: ${({ theme }) => theme.colors.mainBlue};
-  color: ${({ theme }) => theme.colors.white};
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-decoration: none;
-
-  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
-    max-width: 138px;
-    max-height: 46px;
-    margin-top: 8px;
-  }
-`;
-
-export const Mail = styled.img``;
-
-export const MailContent = styled.span`
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-
-  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
-    font-size: 18px;
-    line-height: 22px;
-  }
-`;

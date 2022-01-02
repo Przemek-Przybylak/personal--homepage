@@ -1,16 +1,7 @@
-import {
-  AboutMe,
-  Contact,
-  Content,
-  Name,
-  Picture,
-  Wrapper,
-  Mail,
-  MailContent,
-} from "./styled";
-import mail from "../../svg/mail.svg";
+import { AboutMe, Content, Name, Picture, Wrapper } from "./styled";
 import { ThemeToggle } from "./ThemeToggle";
 import { Span } from "../Span";
+import { Button } from "../Button";
 
 export const Header = () => {
   return (
@@ -24,10 +15,11 @@ export const Header = () => {
           🚨 Are you looking for a future React Master? 👨🏻‍💻 <br />
           Great😉 See what I have prepared for you!
         </Content>
-        <Contact href="mailto:przemyslaw.przybylak2@gmail.com">
-          <Mail src={mail} />
-          <MailContent>Hire Me</MailContent>
-        </Contact>
+        <Button
+          adres={"mailto:przemyslaw.przybylak2@gmail.com"}
+          content={"Hire ME"}
+          ismail
+        />
       </AboutMe>
     </Wrapper>
   );
