@@ -6,6 +6,4 @@ export const futureSkills = [
   "unit testing",
   "next.js",
   "linux",
-  "Angular",
-  "Vue",
 ];

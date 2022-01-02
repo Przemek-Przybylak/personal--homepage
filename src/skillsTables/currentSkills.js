@@ -7,7 +7,7 @@ export const skills = [
   "Immutability",
   "CSS BEM convention",
   "CSS grid",
-  "css Flexbox",
+  "CSS Flexbox",
   "Styled-Components",
   "react router",
   "redux saga",
