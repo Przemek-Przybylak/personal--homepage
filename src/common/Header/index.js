@@ -6,6 +6,7 @@ import {
   Picture,
   Wrapper,
   Mail,
+  MailContent,
 } from "./styled";
 import mail from "../../svg/mail.svg";
 import { ThemeToggle } from "./ThemeToggle";
@@ -14,7 +15,7 @@ import { Span } from "../Span";
 export const Header = () => {
   return (
     <Wrapper>
-      <Picture />
+      <Picture href="../../pictures/CVPicture.jpg" />
       <ThemeToggle />
       <AboutMe>
         <Span>this is</Span>
@@ -25,7 +26,7 @@ export const Header = () => {
         </Content>
         <Contact href="mailto:przemyslaw.przybylak2@gmail.com">
           <Mail src={mail} />
-          Hire Me
+          <MailContent>Hire Me</MailContent>
         </Contact>
       </AboutMe>
     </Wrapper>
