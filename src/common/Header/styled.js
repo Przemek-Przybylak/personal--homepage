@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CVPicture from "../../pictrures/CVPicture.jpg";
 
 export const Wrapper = styled.header`
   margin-top: 119px;
@@ -22,7 +23,10 @@ export const Picture = styled.img`
   grid-area: photo / photo / photo / photo;
   width: 398px;
   height: 398px;
-  background-color: black;
+  background-image: url("${CVPicture}");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     height: 132px;
@@ -94,3 +98,14 @@ export const Contact = styled.a`
 `;
 
 export const Mail = styled.img``;
+
+export const MailContent = styled.span`
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+`;
