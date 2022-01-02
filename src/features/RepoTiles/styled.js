@@ -24,6 +24,12 @@ export const ProjectTile = styled.article`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  border: 6px solid ${({ theme }) => theme.colors.tileBorder};
+  border-radius: 4px;
+
+  &:hover {
+    border: 6px solid ${({ theme }) => theme.colors.tileBorderOnHover};
+  }
 `;
 
 export const Header = styled.h3`
