@@ -15,9 +15,11 @@ export const Wrapper = styled.footer`
 
 export const Mail = styled.a`
   font-weight: 900;
+  text-decoration: none;
   font-size: 32px;
   line-height: 39px;
   margin: 0;
+  color: ${({ theme }) => theme.colors.secondFont};
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     font-size: 18px;
