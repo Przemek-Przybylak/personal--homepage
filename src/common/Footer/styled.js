@@ -21,6 +21,10 @@ export const Mail = styled.a`
   margin: 0;
   color: ${({ theme }) => theme.colors.secondFont};
 
+  &:hover {
+    color: ${({ theme }) => theme.colors.mainBlue};
+  }
+
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
@@ -64,12 +68,24 @@ export const SocialItem = styled.a`
 
 export const GitHubLogo = styled(GitHub)`
   fill: ${({ theme }) => theme.colors.secondFont};
+
+  &:hover {
+    fill: ${({ theme }) => theme.colors.mainBlue};
+  }
 `;
 
 export const FacebookLogo = styled(Facebook)`
   fill: ${({ theme }) => theme.colors.secondFont};
+
+  & :hover {
+    fill: ${({ theme }) => theme.colors.mainBlue};
+  }
 `;
 
 export const LinkedInLogo = styled(LinkedIN)`
   fill: ${({ theme }) => theme.colors.secondFont};
+
+  & :hover {
+    fill: ${({ theme }) => theme.colors.mainBlue};
+  }
 `;
