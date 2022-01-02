@@ -14,7 +14,9 @@ export const Footer = () => {
   return (
     <Wrapper>
       <Span>Let's talk!</Span>
-      <Mail>przemyslaw.przybylak2@gmail.com</Mail>
+      <Mail href="mailto:przemyslaw.przybylak2@gmail.com">
+        przemyslaw.przybylak2@gmail.com
+      </Mail>
       <Content>
         I’m always open to new projects whenever I have the time. If you have a
         website, dashboard or mobile app in mind and need some help to make your
