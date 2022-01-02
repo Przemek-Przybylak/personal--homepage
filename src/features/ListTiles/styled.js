@@ -79,6 +79,10 @@ export const ListItemText = styled.span`
   line-height: 25.2px;
   padding: 0px;
 
+  &:hover {
+    filter: brightness(1.3);
+  }
+
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;
