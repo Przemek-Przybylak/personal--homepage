@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  color: ${({ theme }) => theme.colors.mainFont};
+  color: ${({ theme }) => theme.colors.secondFont};
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
     margin-top: 0;
