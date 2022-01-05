@@ -1,16 +1,16 @@
 import { useSelector } from "react-redux";
 import { ThemeProvider } from "styled-components";
-import { Container } from "./common/Container";
-import { Header } from "./common/Header";
-import { selectDarkTheme } from "./common/Header/ThemeToggle/state/ThemeSlice";
-import { ListTiles } from "./features/ListTiles";
+import { Container } from "../../common/Container";
+import { Header } from "../header/Header";
+import { selectDarkTheme } from "../header/toggler/state/ThemeSlice";
+import { ListTiles } from "../listTiles/ListTiles";
 import { GlobalStyles } from "./GlobalStyles";
-import { Projects } from "./common/Projects";
-import { skills, title } from "./skillsTables/currentSkills";
-import { futureSkills, futureSkillsTitle } from "./skillsTables/futureSkills";
+import { Projects } from "../Projects";
+import { skills, title } from "../listTiles/skillsTables/currentSkills";
+import { futureSkills, futureSkillsTitle } from "../listTiles/skillsTables/futureSkills";
 import { darkTheme, lightTheme } from "./theme";
-import { RepoTiles } from "./features/RepoTiles";
-import { Footer } from "./common/Footer";
+import { RepoTiles } from "../RepoTiles";
+import { Footer } from "../footer/Footer";
 
 function App() {
   const darkThemeOn = useSelector(selectDarkTheme);

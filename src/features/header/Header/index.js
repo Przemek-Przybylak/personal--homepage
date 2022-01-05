@@ -1,12 +1,12 @@
 import { AboutMe, Content, Name, Picture, Wrapper } from "./styled";
-import { ThemeToggle } from "./ThemeToggle";
-import { Span } from "../Span";
-import { Button } from "../Button";
+import { ThemeToggle } from "../toggler/ThemeToggle";
+import { Span } from "../../../common/Span";
+import { Button } from "../../../common/button/Button";
 
 export const Header = () => {
   return (
     <Wrapper>
-      <Picture href="../../pictures/CVPicture.jpg" />
+      <Picture  />
       <ThemeToggle />
       <AboutMe>
         <Span>this is</Span>

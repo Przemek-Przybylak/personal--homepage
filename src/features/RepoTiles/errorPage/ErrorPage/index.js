@@ -1,4 +1,4 @@
-import { Button } from "../Button";
+import { Button } from "../../../../common/button/Button";
 import { ErrorContent, ErrorPicture, ErrorTittle, Wrapper } from "./styled";
 
 export const ErrorPage = () => {

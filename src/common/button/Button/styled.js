@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as MailIcon } from "../../svg/mail.svg";
+import { ReactComponent as MailIcon } from "../svg/mail.svg";
 
 export const Contact = styled.a`
   max-width: 168px;

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { ErrorPage } from "../../common/ErrorPage";
-import { Loader } from "../../common/Loader";
+import { ErrorPage } from "./errorPage/ErrorPage";
+import { Loader } from "./loaderPage/Loader";
 import {
   fetchRepositories,
   selectRepositories,
@@ -25,7 +25,7 @@ export const RepoTiles = () => {
 
   useEffect(() => {
     dispatch(fetchRepositories());
-  });
+  },[dispatch]);
   return (
     <>
       {status === "success" && (

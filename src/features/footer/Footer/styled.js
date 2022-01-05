@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "../../svg/github.svg";
-import { ReactComponent as Facebook } from "../../svg/Facebook.svg";
-import { ReactComponent as LinkedIN } from "../../svg/LinkedIN.svg";
+import { ReactComponent as GitHub } from "../svg/github.svg";
+import { ReactComponent as Facebook } from "../svg/Facebook.svg";
+import { ReactComponent as LinkedIN } from "../svg/LinkedIN.svg";
 
 export const Wrapper = styled.footer`
   display: flex;

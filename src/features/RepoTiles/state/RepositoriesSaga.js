@@ -10,7 +10,6 @@ function* fetchRepositoriesHandler() {
   try {
     delay(1000);
     const repositories = yield call(fetchRepositoriesFromApi);
-    yield delay(500);
     yield put(fetchRepositoriesSuccess(repositories));
     yield put(setApplicationStatus("success"));
   } catch (error) {

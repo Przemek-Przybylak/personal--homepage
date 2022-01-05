@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import CVPicture from "../../pictrures/CVPicture.jpg";
+import CVPicture from "../pictrures/CVPicture.jpg";
 
 export const Wrapper = styled.header`
   margin-top: 119px;

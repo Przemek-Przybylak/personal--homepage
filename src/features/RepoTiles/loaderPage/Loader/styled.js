@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as spinner } from "../../svg/spinner.svg";
+import { ReactComponent as spinner } from "../svg/spinner.svg";
 
 export const Wrapper = styled.section`
   margin: 80px auto 140px;

@@ -4,8 +4,6 @@ const repositoriesSlice = createSlice({
   name: "repositories",
   initialState: {
     repositories: [],
-    loading: true,
-    error: false,
     status: "loading",
   },
   reducers: {

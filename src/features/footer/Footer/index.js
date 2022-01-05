@@ -1,4 +1,4 @@
-import { Span } from "../Span";
+import { Span } from "../../../common/Span";
 import {
   Content,
   FacebookLogo,

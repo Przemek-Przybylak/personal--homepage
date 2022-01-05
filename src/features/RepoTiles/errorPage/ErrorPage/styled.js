@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Danger } from "../../svg/Danger.svg";
+import { ReactComponent as Danger } from "../svg/Danger.svg";
 
 export const Wrapper = styled.section`
   margin: 95px auto 140px;
