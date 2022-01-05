@@ -8,7 +8,7 @@ import { GlobalStyles } from "./GlobalStyles";
 import { Projects } from "../Projects";
 import { skills, title } from "../listTiles/skillsTables/currentSkills";
 import { futureSkills, futureSkillsTitle } from "../listTiles/skillsTables/futureSkills";
-import { darkTheme, lightTheme } from "./theme";
+import { darkTheme, lightTheme } from "../../core/theme";
 import { RepoTiles } from "../RepoTiles";
 import { Footer } from "../footer/Footer";
 
