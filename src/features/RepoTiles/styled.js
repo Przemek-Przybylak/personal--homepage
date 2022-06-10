@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 16px;
+    padding: 0px 2px;
     margin-bottom: 48px;
   }
 `;
@@ -26,6 +27,10 @@ export const ProjectTile = styled.article`
   align-items: flex-start;
   border: 6px solid ${({ theme }) => theme.colors.tileBorder};
   border-radius: 4px;
+
+  @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+    padding: 24px;
+  }
 
   &:hover {
     border: 6px solid ${({ theme }) => theme.colors.tileBorderOnHover};
