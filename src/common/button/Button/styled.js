@@ -3,9 +3,8 @@ import { ReactComponent as MailIcon } from "../svg/mail.svg";
 
 export const Contact = styled.a`
   max-width: 168px;
-  max-height: 49px;
+  height: 49px;
   border-radius: 4px;
-  padding: 12px 16px;
   border: 1px solid ${({ theme }) => theme.colors.mainBlue};
   background-color: ${({ theme }) => theme.colors.mainBlue};
   color: ${({ theme }) => theme.colors.white};
