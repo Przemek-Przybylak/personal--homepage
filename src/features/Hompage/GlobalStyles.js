@@ -14,5 +14,10 @@ export const GlobalStyles = createGlobalStyle`
         overflow-y: scroll;
         font-family: 'Inter', sans-serif;
         transition: 300ms;
+        
+        @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {
+            margin: 0 auto ;
+        }
+        
     };
 `;
