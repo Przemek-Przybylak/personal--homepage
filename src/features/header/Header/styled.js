@@ -2,7 +2,7 @@ import styled from "styled-components";
 import CVPicture from "../pictrures/CVPicture.jpg";
 
 export const Wrapper = styled.header`
-  margin-top: 119px;
+  margin-top: 20px;
   display: grid;
   gap: 66px;
   grid-template-rows: 32px 1fr;
@@ -21,11 +21,12 @@ export const Wrapper = styled.header`
 
 export const Picture = styled.img`
   grid-area: photo / photo / photo / photo;
-  width: 398px;
-  height: 398px;
+  width: 400px;
+  height: 400px;
   background-image: url("${CVPicture}");
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid ${({theme}) => theme.colors.background};;
   border-radius: 50%;
 
   @media (max-width: ${({ theme }) => theme.breakPoints.mobileMax}px) {

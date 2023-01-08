@@ -1,9 +1,9 @@
-export const futureSkillsTitle = "What I want to learn next 🚀";
+export const futureSkillsTitle = "I'm currently taking the MegaK course, here's what I'm learning 🚀";
 export const futureSkills = [
-  "Typescript",
-  "React-Native",
-  "node.js",
-  "unit testing",
-  "next.js",
-  "linux",
+    "Express.js",
+    "MySQL & MongoDB",
+    "Typescript",
+    "Advanced node.js",
+    "Unit testing",
+    "Nest.js",
 ];
