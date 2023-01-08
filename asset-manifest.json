@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.js": "/personal--homepage/static/js/main.c98c3dcb.chunk.js",
-    "main.js.map": "/personal--homepage/static/js/main.c98c3dcb.chunk.js.map",
-    "runtime-main.js": "/personal--homepage/static/js/runtime-main.f9ad778b.js",
-    "runtime-main.js.map": "/personal--homepage/static/js/runtime-main.f9ad778b.js.map",
-    "static/js/2.be5820b1.chunk.js": "/personal--homepage/static/js/2.be5820b1.chunk.js",
-    "static/js/2.be5820b1.chunk.js.map": "/personal--homepage/static/js/2.be5820b1.chunk.js.map",
-    "static/js/3.77501594.chunk.js": "/personal--homepage/static/js/3.77501594.chunk.js",
-    "static/js/3.77501594.chunk.js.map": "/personal--homepage/static/js/3.77501594.chunk.js.map",
+    "main.js": "/personal--homepage/static/js/main.9393a374.js",
+    "static/js/787.f69459d3.chunk.js": "/personal--homepage/static/js/787.f69459d3.chunk.js",
+    "static/media/CVPicture.jpg": "/personal--homepage/static/media/CVPicture.ffd8b0bd53f741388fd0.jpg",
+    "static/media/DarkModeOn.svg": "/personal--homepage/static/media/DarkModeOn.75c7fdb156e25193d58c4a17af84d576.svg",
+    "static/media/DarkModeOff.svg": "/personal--homepage/static/media/DarkModeOff.29aec393594dd5b1fbf4bee440158c0f.svg",
+    "static/media/github.svg": "/personal--homepage/static/media/github.bab7677dbd9f230e37c02e744ec850df.svg",
     "index.html": "/personal--homepage/index.html",
-    "static/js/2.be5820b1.chunk.js.LICENSE.txt": "/personal--homepage/static/js/2.be5820b1.chunk.js.LICENSE.txt",
-    "static/media/CVPicture.e3b459a9.jpg": "/personal--homepage/static/media/CVPicture.e3b459a9.jpg",
-    "static/media/Danger.5aa740a4.svg": "/personal--homepage/static/media/Danger.5aa740a4.svg",
-    "static/media/DarkModeOff.29aec393.svg": "/personal--homepage/static/media/DarkModeOff.29aec393.svg",
-    "static/media/DarkModeOn.75c7fdb1.svg": "/personal--homepage/static/media/DarkModeOn.75c7fdb1.svg",
-    "static/media/Facebook.c0d94c28.svg": "/personal--homepage/static/media/Facebook.c0d94c28.svg",
-    "static/media/LinkedIN.364f02bf.svg": "/personal--homepage/static/media/LinkedIN.364f02bf.svg",
-    "static/media/github.bab7677d.svg": "/personal--homepage/static/media/github.bab7677d.svg",
-    "static/media/mail.4bb44ead.svg": "/personal--homepage/static/media/mail.4bb44ead.svg",
-    "static/media/spinner.f0cf9f6a.svg": "/personal--homepage/static/media/spinner.f0cf9f6a.svg"
+    "static/media/Danger.svg": "/personal--homepage/static/media/Danger.5aa740a4e01a48bdaf667e2b02285f1d.svg",
+    "static/media/LinkedIN.svg": "/personal--homepage/static/media/LinkedIN.364f02bf78e560f58381a5a3a82e72d7.svg",
+    "static/media/mail.svg": "/personal--homepage/static/media/mail.4bb44ead9e956a91e3f4855e5a0431db.svg",
+    "static/media/Facebook.svg": "/personal--homepage/static/media/Facebook.c0d94c28358524697f418745c6dd5e50.svg",
+    "static/media/spinner.svg": "/personal--homepage/static/media/spinner.f0cf9f6aef365567ad9b9a0d34b8b760.svg",
+    "main.9393a374.js.map": "/personal--homepage/static/js/main.9393a374.js.map",
+    "787.f69459d3.chunk.js.map": "/personal--homepage/static/js/787.f69459d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9ad778b.js",
-    "static/js/2.be5820b1.chunk.js",
-    "static/js/main.c98c3dcb.chunk.js"
+    "static/js/main.9393a374.js"
   ]
 }
